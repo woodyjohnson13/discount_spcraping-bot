@@ -4,7 +4,7 @@ from aiogram.utils.markdown import hbold,hlink,hide_link,link as ai
 from main import*
 import json
 import auth_data
-
+#its version
 
 bot=Bot(token="5535738016:AAElQ4qifmYZrMW_fehZkrrRW8LGdiGr8FI",parse_mode=types.ParseMode.HTML)
 dsp=Dispatcher(bot=bot)
