@@ -26,7 +26,9 @@ async def get_discount_games(message:types.Message):
 
     for item in data:
         card=f'{hlink(item.get("Название"),item.get("Cсылка"))}\n'\
-            f"Цена:{item.get('Цена')}\n"
+            f"Старая цена:{item.get('Cтарая цена')}\n"\
+            f"Новая цена:{item.get('Новая цена')}\n"\
+            f"Наличие:{item.get('Наличие')}\n"
         await message.answer(card)
 
 

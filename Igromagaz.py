@@ -38,12 +38,12 @@ class Igromagaz(Getter):
                 try:
                     old_price=cards.find("div",class_="product-tile__price-old")
                     new_price=cards.find("div",class_="product-tile__price")
-                    #print("https://www.igromagaz.ru"+ref)
-                    #print(name.text.replace(" (ключ для ПК)",""))
-                    #print(old_price.text.strip().replace(" руб.","")+"/"+new_price.text)
+                    avaliability=cards.find("div",class_="product-tile__stock")
                     games.append({
                         "Название":name.text.replace(" (ключ для ПК)",""),
-                        "Цена":(old_price.text.strip().replace(" руб.","")+"/"+new_price.text),
+                        "Cтарая цена":(old_price.text.strip().replace(" руб."," руб")),
+                        "Новая цена":new_price.text+" руб",
+                        "Наличие":avaliability.text.lower(),
                         "Cсылка":"https://www.igromagaz.ru"+ref
                         })
                 except Exception as e:
