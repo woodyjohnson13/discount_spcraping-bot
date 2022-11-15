@@ -9,19 +9,21 @@ from Getter import Getter
 class Igromagaz(Getter):
     
 
-    def get_data(self):
-        #req=requests.get(url=self.url,headers=self.headers)
-        #with open(f"data/index_page.html","w",encoding="UTF-8") as file:
-            #file.write(req.text)
+    def get_horror_data(self):
+        url="https://www.igromagaz.ru/igry-dlya-pc/?activations%5B31903%5D=31903&discount_percent=Y&genres%5B12987%5D=12987"
+        req=requests.get(url=url)
+        with open(f"data/index_page.html","w",encoding="UTF-8") as file:
+            file.write(req.text)
 
-        #with open (f"data/index_page.html",encoding="UTF-8") as file:
-            #src=file.read() 
+        with open (f"data/index_page.html",encoding="UTF-8") as file:
+            src=file.read() 
 
-        #soup=BeautifulSoup(src,"lxml")
-        #page_count=soup.find("a",class_="pagination__item pagination__item_last pagination-js")
+        soup=BeautifulSoup(src,"lxml")
+        page_count=soup.find("a",class_="pagination__item pagination__item_last pagination-js").text
         games=[]
-        for i in range(1,3): #int(page_count)+1
-            url_1=f"https://www.igromagaz.ru/igry-dlya-pc/?activations%5B31903%5D=31903&discount_percent=Y&PAGEN_1={i}"
+
+        for i in range(1,int(page_count)+1): 
+            url_1=f"https://www.igromagaz.ru/igry-dlya-pc/?activations%5B31903%5D=31903&discount_percent=Y&genres%5B12987%5D=12987&PAGEN_1={i}"
             req=requests.get(url=url_1,headers=self.header)
 
             with open(f"data/index_{i}.html","w",encoding="UTF-8") as file:
@@ -51,6 +53,6 @@ class Igromagaz(Getter):
                     continue
 
 
-        with open("igromagaz_discount.json","w",encoding="UTF-8") as file:
+        with open("igromagaz_discount_horror.json","w",encoding="UTF-8") as file:
             json.dump(games,file,indent=4,ensure_ascii=False)
 

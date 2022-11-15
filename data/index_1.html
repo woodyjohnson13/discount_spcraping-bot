@@ -21,7 +21,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link href="/bitrix/cache/css/ru/template2016/template_a2e2277b71e976a97cb54cd7f5b2ad7f/template_a2e2277b71e976a97cb54cd7f5b2ad7f.css?1650009778178683" type="text/css"  data-template-style="true"  rel="stylesheet">
 <script type="text/javascript">if(!window.BX)window.BX={message:function(mess){if(typeof mess=='object') for(var i in mess) BX.message[i]=mess[i]; return true;}};</script>
 <script type="text/javascript">(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
-<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'IGROMAGAZ','SERVER_TZ_OFFSET':'10800','SITE_ID':'ru','USER_ID':'','SERVER_TIME':'1668259085','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'9e8286df804d7ac6d534ef76096b7fc6'});</script>
+<script type="text/javascript">(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'IGROMAGAZ','SERVER_TZ_OFFSET':'10800','SITE_ID':'ru','USER_ID':'','SERVER_TIME':'1668518736','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'065fcee3fe3c3659f9ab59c8b8bd81c5'});</script>
 
 
 <script type="text/javascript" src="/bitrix/cache/js/ru/template2016/kernel_main/kernel_main.js?1648699409284709"></script>
@@ -144,7 +144,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <!--noindex-->
                 <a class="top-auth__button top-auth__button_register"
                    title="Регистрация"
-                   href="/auth/?register=yes&amp;backurl=%2Figry-dlya-pc%2F%3Factivations%255B31903%255D%3D31903%26discount_percent%3DY%26PAGEN_1%3D1" rel="nofollow" target="_self">
+                   href="/auth/?register=yes&amp;backurl=%2Figry-dlya-pc%2F%3Factivations%255B31903%255D%3D31903%26discount_percent%3DY%26genres%255B12987%255D%3D12987%26PAGEN_1%3D1" rel="nofollow" target="_self">
                     Регистрация                </a>
                 <!--/noindex-->
                     </div>
@@ -676,7 +676,7 @@ else
                         class="search-top__input"
                         name="q"
                         type="text"
-                        placeholder="Поиск среди 768 товаров в наличии"
+                        placeholder="Поиск среди 765 товаров в наличии"
                         value=""
                 />
             </div>
@@ -705,7 +705,7 @@ else
     </div>
     <input type="hidden" name="clear_filter" value="" class="input-clear-filter-js"/>
     <input type="hidden" name="name_search_filter" value="" class="input-name-filter-js"/>
-                        <div class="filter__item filter-price-range-js" id="range-input-js_636f9d0c10107">
+                        <div class="filter__item filter-price-range-js" id="range-input-js_6373934f4b72b">
                 <div class="filter__corner">
                     <div class="filter__corner-icon ic-show"></div>
                 </div>
@@ -1222,7 +1222,7 @@ else
                 <div class="filter__title">Жанры</div>
                 <div class="filter__body">
                     <div class="filter__body-in">
-                        <div class="filter__hh" data-visible="5">
+                        <div class="filter__hh" data-visible="16">
                                                             <div class="filter__bl">
                                     <div class="filter__count"></div>
                                     <div class="checkbox checkbox_small-text filter__checkbox">
@@ -1413,7 +1413,7 @@ else
                                                     data-container-id="checkbox_genres_12987"
                                                     name="genres[12987]"
                                                     value="12987"
-                                                                                                    >
+                                                    checked="checked"                                                >
                                                                                         <span class="checkbox__cnt">
                                                 <span class="checkbox__icon ic-check"></span>
                                                 <span class="checkbox__icon ic-check-active"></span>
@@ -1544,10 +1544,6 @@ else
                                     </div>
                                 </div>
                                                     </div>
-                                                    <button class="filter__hh-btn" type="button">
-                                <span class="filter__hh-more">Еще 11 жанров</span>
-                                <span class="filter__hh-less">Свернуть</span>
-                            </button>
                                             </div>
                 </div>
             </div>
@@ -2141,6 +2137,7 @@ else
 <div class="filter-params catalog-list__fparams filter-params-js">
                                         <input type="hidden" name="filter_params[checkbox][]" value="checkbox_activations_31903" class="param-filter-js"/>
                             <input type="hidden" name="filter_params[checkbox][]" value="checkbox_discount_percent" class="param-filter-js"/>
+                            <input type="hidden" name="filter_params[checkbox][]" value="checkbox_genres_12987" class="param-filter-js"/>
                                             <input type="hidden" name="filter_params[price-range]" value="price_range" class="param-filter-js"/>
                 <div class="filter-params__title filter-params-title-js">Параметры фильтра не заданы</div>
 </div>
@@ -2228,113 +2225,7 @@ else
             </div>
 
             <div class="catalog-list__products catalog-list__products_grid">
-        <div class="product-tile container-good-item-js_38325"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">47</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-god-eater-2/god-eater-3-kluch.php"
-                title="God Eater 3 (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/d9d/203_1000_1/god-eater-3.png"
-                        alt="God Eater 3 (ключ для ПК)"
-                        title="God Eater 3 (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-god-eater-2/god-eater-3-kluch.php"
-                        title="God Eater 3 (ключ для ПК)"
-                    >God Eater 3 (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"38325","name":"God Eater 3 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"999","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1899 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">999 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38325","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 12+"
-        >
-            12+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 12+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_38369"
+        <div class="product-tile container-good-item-js_38369"
          data-params='{"isPreOrder":false}'
     >
         <div class="product-tile__in">
@@ -2389,112 +2280,6 @@ else
     class=" buttons-product-small__icon ic-wish ic-wish-js "
     title="В список желаемого"
     data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38369","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 12+"
-        >
-            12+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 12+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_38027"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">35</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-ace-combat/ace-combat-7-skies-unknown-kluch.php"
-                title="Ace Combat 7 Skies Unknown (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/e4b/203_1000_1/ace-combat-7.png"
-                        alt="Ace Combat 7 Skies Unknown (ключ для ПК)"
-                        title="Ace Combat 7 Skies Unknown (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-ace-combat/ace-combat-7-skies-unknown-kluch.php"
-                        title="Ace Combat 7 Skies Unknown (ключ для ПК)"
-                    >Ace Combat 7 Skies Unknown (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"38027","name":"Ace Combat 7 Skies Unknown (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"1299","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1999 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">1299 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38027","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
 >
 </div>
 
@@ -2647,529 +2432,6 @@ else
     </div>
     <div class=" product-tile__act-text">
         Возрастной рейтинг: 16+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_37515"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">75</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-just-cause/just-cause-4-kluch.php"
-                title="Just Cause 4 (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/eb1/203_1000_1/just-cause-4.png"
-                        alt="Just Cause 4 (ключ для ПК)"
-                        title="Just Cause 4 (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-just-cause/just-cause-4-kluch.php"
-                        title="Just Cause 4 (ключ для ПК)"
-                    >Just Cause 4 (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"37515","name":"Just Cause 4 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"499","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1999 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">499 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"37515","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 16+"
-        >
-            16+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 16+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_38949"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">67</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-borderlands/borderlands-3-super-deluxe-edition-steam.php"
-                title="Borderlands 3 Super Deluxe Edition (Steam) (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/d88/203_1000_1/borderlands_3_super_deluxe_edition_min.png"
-                        alt="Borderlands 3 Super Deluxe Edition (Steam) (ключ для ПК)"
-                        title="Borderlands 3 Super Deluxe Edition (Steam) (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-borderlands/borderlands-3-super-deluxe-edition-steam.php"
-                        title="Borderlands 3 Super Deluxe Edition (Steam) (ключ для ПК)"
-                    >Borderlands 3 Super Deluxe Edition (Steam) (ключ д...</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"38949","name":"Borderlands 3 Super Deluxe Edition (Steam) (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"1499","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            4499 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">1499 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38949","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 18+"
-        >
-            18+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 18+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_39147"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">17</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/dirt-kupit/dirt-5-kluch.php"
-                title="Dirt 5 (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/326/203_1000_1/dirt-5_min.png"
-                        alt="Dirt 5 (ключ для ПК)"
-                        title="Dirt 5 (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/dirt-kupit/dirt-5-kluch.php"
-                        title="Dirt 5 (ключ для ПК)"
-                    >Dirt 5 (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"39147","name":"Dirt 5 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"899","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1085 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">899 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"39147","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 6+"
-        >
-            6+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 6+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_37748"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">85</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-soulcalibur/soulcalibur-6-kluch.php"
-                title="SoulCalibur IV (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/462/203_1000_1/soulcalibur-vi.png"
-                        alt="SoulCalibur IV (ключ для ПК)"
-                        title="SoulCalibur IV (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-soulcalibur/soulcalibur-6-kluch.php"
-                        title="SoulCalibur IV (ключ для ПК)"
-                    >SoulCalibur IV (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"37748","name":"SoulCalibur IV (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"299","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1999 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">299 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"37748","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 16+"
-        >
-            16+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 16+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_38576"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">45</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-doom/doom-eternal-kluch.php"
-                title="Doom Eternal (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/941/203_1000_1/doom_eternal_min.png"
-                        alt="Doom Eternal (ключ для ПК)"
-                        title="Doom Eternal (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-doom/doom-eternal-kluch.php"
-                        title="Doom Eternal (ключ для ПК)"
-                    >Doom Eternal (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt product-tile__cnt_not-stock">
-                <div class="product-tile__cnt-col-r">
-                                            <button
-    type="button"
-    class="button button_small button-notify-js product-tile__button"
-    title="Уведомить"
-            data-params='{"id":"38576","auth":"\/auth\/?backurl=\/igry-dlya-pc\/?activations%5B31903%5D=31903\u0026discount_percent=Y\u0026PAGEN_1=1"}'>
-            <div class="button__icon ic-inform"></div>
-        Уведомить</button>
-                        <div class="product-tile__stock">Нет в наличии</div>
-                                    </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1999 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">1099 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38576","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 18+"
-        >
-            18+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 18+    </div>
 </div>                                                    </div>
                                     </div>
             </div>
@@ -3387,219 +2649,6 @@ else
             </div>
         </div>
     </div>
-    <div class="product-tile container-good-item-js_37014"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-            
-<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">73</span><span class="discount__pre">%</span></div>
-            <a
-                href="/igry-dlya-pc/kupit-injustice/injustice-2-kluch.php"
-                title="Injustice 2 (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/4d4/203_1000_1/injustice-2-_1_.png"
-                        alt="Injustice 2 (ключ для ПК)"
-                        title="Injustice 2 (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-injustice/injustice-2-kluch.php"
-                        title="Injustice 2 (ключ для ПК)"
-                    >Injustice 2 (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"37014","name":"Injustice 2 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"479","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock-icon ic-mark"></div>
-                            <div class="product-tile__stock">В наличии</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                            <div class="product-tile__price-old">
-                            1799 руб.                        </div>
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">479 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"37014","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Моментальня доставка на e-mail                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 16+"
-        >
-            16+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 16+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
-    <div class="product-tile container-good-item-js_39293"
-         data-params='{"isPreOrder":false}'
-    >
-        <div class="product-tile__in">
-                        <a
-                href="/igry-dlya-pc/kupit-resident-evil/resident-evil-village-deluxe-edition-kluch.php"
-                title="Resident Evil Village Deluxe Edition (ключ для ПК)"
-                class="product-tile__image"
-            >
-                                    <img
-                        class="product-tile__img"
-                        src="/upload/resize_cache/iblock/5de/203_1000_1/resident-evil-village-deluxe-edition_min.png"
-                        alt="Resident Evil Village Deluxe Edition (ключ для ПК)"
-                        title="Resident Evil Village Deluxe Edition (ключ для ПК)"
-                        role="presentation"
-                    />
-                    
-<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
-                            </a>
-            <div class="product-tile__nt">
-                <div class="product-tile__nt-in">
-                    <a
-                        class="product-tile__name"
-                        href="/igry-dlya-pc/kupit-resident-evil/resident-evil-village-deluxe-edition-kluch.php"
-                        title="Resident Evil Village Deluxe Edition (ключ для ПК)"
-                    >Resident Evil Village Deluxe Edition (ключ для ПК)</a>
-                                            <div class="product-tile__type">Цифровой товар</div>
-                                    </div>
-            </div>
-            <div class="product-tile__cnt ">
-                <div class="product-tile__cnt-col-r">
-                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
-    type="button"
-    class="button button_small button_orange add-to-basket-js product-tile__button"
-    title="Купить"
-            data-params='{"id":"39293","name":"Resident Evil Village Deluxe Edition (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"2289","basketUrl":"\/personal\/cart\/","inBasket":""}'>
-        Купить</button>
-                                                    <div class="product-tile__stock product-line__notstock dsdsddd">Под заказ</div>
-                            
-
-<div class="tooltipster ic-quest  product-tile__quest" data-tooltip-content="#tooltipster_636f9d0ccd6ea">
-    <div class="tooltipster__content" id="tooltipster_636f9d0ccd6ea">
-        <span class="tooltipster_red">Товара нет в наличии, закончился</span>. Доставка после пополнения склада.    </div>
-</div>
-                                                            </div>
-                <div class="product-tile__cnt-col-l">
-                                        <div class="product-tile__price-wrap">
-                        <div class="product-tile__price-in">
-                            <div class="product-tile__price">2289 </div> <div class="product-tile__cur">руб.</div>                        </div>
-                    </div>
-                                            <div class="buttons-product-small product-tile__buttons">
-                            <div class="buttons-product-small__item">
-                                <div
-    class=" buttons-product-small__icon ic-wish ic-wish-js "
-    title="В список желаемого"
-    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"39293","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
->
-</div>
-
-                            </div>
-                        </div>
-                                    </div>
-            </div>
-            <div class="product-tile__bottom">
-                <div class="product-tile__bottom-in">
-                                            <div class="product-tile__delivery">
-                            <div class="product-tile__delivery-item">
-                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
-                                    <div class="product-tile__delivery-text">
-                                        Доставка после пополнения склада                                    </div>
-                                                            </div>
-                        </div>
-                                                                <div class="product-tile__activations">
-                            <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="types-icon types-icon__key "
-            title="Цифровой товар">
-        </div>
-    </div>
-            <div class=" product-tile__act-text">Цифровой товар</div>
-    </div>
-                                <div class=" product-tile__act-item">
-        <div class=" product-tile__act-icon">
-            <div
-                class="activations activations_steam "
-                title="Steam">
-            </div>
-        </div>
-        <div class=" product-tile__act-text">
-            Steam        </div>
-    </div>
-                                                                                        <div class=" product-tile__act-item">
-    <div class=" product-tile__act-icon">
-        <div
-            class="age "
-            title="Возрастной рейтинг: 18+"
-        >
-            18+        </div>
-    </div>
-    <div class=" product-tile__act-text">
-        Возрастной рейтинг: 18+    </div>
-</div>                                                    </div>
-                                    </div>
-            </div>
-        </div>
-    </div>
     <div class="product-tile container-good-item-js_39251"
          data-params='{"isPreOrder":false}'
     >
@@ -3642,8 +2691,8 @@ else
                                                     <div class="product-tile__stock product-line__notstock dsdsddd">Под заказ</div>
                             
 
-<div class="tooltipster ic-quest  product-tile__quest" data-tooltip-content="#tooltipster_636f9d0ccebd1">
-    <div class="tooltipster__content" id="tooltipster_636f9d0ccebd1">
+<div class="tooltipster ic-quest  product-tile__quest" data-tooltip-content="#tooltipster_6373934ff030c">
+    <div class="tooltipster__content" id="tooltipster_6373934ff030c">
         <span class="tooltipster_red">Товара нет в наличии, закончился</span>. Доставка после пополнения склада.    </div>
 </div>
                                                             </div>
@@ -3817,6 +2866,960 @@ else
             </div>
         </div>
     </div>
+    <div class="product-tile container-good-item-js_36671"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">78</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-sudden-strike/sudden-strike-4-kluch.php"
+                title="Sudden Strike 4 (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/1b1/203_1000_1/sudden-strike-4-.png"
+                        alt="Sudden Strike 4 (ключ для ПК)"
+                        title="Sudden Strike 4 (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-sudden-strike/sudden-strike-4-kluch.php"
+                        title="Sudden Strike 4 (ключ для ПК)"
+                    >Sudden Strike 4 (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"36671","name":"Sudden Strike 4 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"199","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            899 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">199 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"36671","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 16+"
+        >
+            16+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 16+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_37665"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">33</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-this-is-the-police/this-is-the-police-2-kluch.php"
+                title="This Is the Police 2 (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/a60/203_1000_1/this-is-the-police-2.png"
+                        alt="This Is the Police 2 (ключ для ПК)"
+                        title="This Is the Police 2 (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-this-is-the-police/this-is-the-police-2-kluch.php"
+                        title="This Is the Police 2 (ключ для ПК)"
+                    >This Is the Police 2 (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"37665","name":"This Is the Police 2 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"299","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            449 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">299 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"37665","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 16+"
+        >
+            16+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 16+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_37487"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">24</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-cities-xl/cities-skylines-parklife-dlc-kluch.php"
+                title="Cities Skylines – Parklife (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/ce5/203_1000_1/cities-skylines-_-parklife.png"
+                        alt="Cities Skylines – Parklife (ключ для ПК)"
+                        title="Cities Skylines – Parklife (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-cities-xl/cities-skylines-parklife-dlc-kluch.php"
+                        title="Cities Skylines – Parklife (ключ для ПК)"
+                    >Cities Skylines – Parklife (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"37487","name":"Cities Skylines \u2013 Parklife (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"249","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            327 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">249 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"37487","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_36470"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">57</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-the-escapists/the-escapists-2-kluch.php"
+                title="The Escapists 2 (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/e0d/203_1000_1/the-escapists-2-.png"
+                        alt="The Escapists 2 (ключ для ПК)"
+                        title="The Escapists 2 (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-the-escapists/the-escapists-2-kluch.php"
+                        title="The Escapists 2 (ключ для ПК)"
+                    >The Escapists 2 (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"36470","name":"The Escapists 2 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"319","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            739 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">319 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"36470","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_38311"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">7</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-imperator-rome/imperator-rome-kluch.php"
+                title="Imperator Rome (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/6c5/203_1000_1/imperator-rome.png"
+                        alt="Imperator Rome (ключ для ПК)"
+                        title="Imperator Rome (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-imperator-rome/imperator-rome-kluch.php"
+                        title="Imperator Rome (ключ для ПК)"
+                    >Imperator Rome (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"38311","name":"Imperator Rome (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"673","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            725 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">673 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"38311","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_33734"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">63</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-knights-of-pen-and-paper/knights-of-pen-and-paper-2-kluch.php"
+                title="Knights of Pen and Paper 2 (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/2c4/203_1000_1/knights-of-paper-2.png"
+                        alt="Knights of Pen and Paper 2 (ключ для ПК)"
+                        title="Knights of Pen and Paper 2 (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-knights-of-pen-and-paper/knights-of-pen-and-paper-2-kluch.php"
+                        title="Knights of Pen and Paper 2 (ключ для ПК)"
+                    >Knights of Pen and Paper 2 (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"33734","name":"Knights of Pen and Paper 2 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"69","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            189 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">69 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"33734","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_33674"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">74</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-hearts-of-iron/hearts-of-iron-ii-complete-kluch.php"
+                title="Hearts of Iron II Complete (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/fb9/203_1000_1/hearts-of-iron-ii-complete-.png"
+                        alt="Hearts of Iron II Complete (ключ для ПК)"
+                        title="Hearts of Iron II Complete (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-hearts-of-iron/hearts-of-iron-ii-complete-kluch.php"
+                        title="Hearts of Iron II Complete (ключ для ПК)"
+                    >Hearts of Iron II Complete (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"33674","name":"Hearts of Iron II Complete (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"79","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            299 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">79 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"33674","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_30473"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">68</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-tropico/tropico-5-cd-key.php"
+                title="Tropico 5 (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/7bf/203_1000_1/tropico-5.png"
+                        alt="Tropico 5 (ключ для ПК)"
+                        title="Tropico 5 (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-tropico/tropico-5-cd-key.php"
+                        title="Tropico 5 (ключ для ПК)"
+                    >Tropico 5 (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"30473","name":"Tropico 5 (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"189","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            599 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">189 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"30473","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-tile container-good-item-js_24819"
+         data-params='{"isPreOrder":false}'
+    >
+        <div class="product-tile__in">
+            
+<div class="discount  product-tile__discount"><span class="discount__pre">-</span><span class="discount__value">60</span><span class="discount__pre">%</span></div>
+            <a
+                href="/igry-dlya-pc/kupit-hearts-of-iron/kupit-hearts-of-iron-3-cd-key.php"
+                title="Hearts of Iron III (ключ для ПК)"
+                class="product-tile__image"
+            >
+                                    <img
+                        class="product-tile__img"
+                        src="/upload/resize_cache/iblock/a4e/203_1000_1/hoi3-_1_.png"
+                        alt="Hearts of Iron III (ключ для ПК)"
+                        title="Hearts of Iron III (ключ для ПК)"
+                        role="presentation"
+                    />
+                    
+<div class=" product-tile__digital product-tile__digital_sky ic-load" title="Цифровой товар"></div>
+                            </a>
+            <div class="product-tile__nt">
+                <div class="product-tile__nt-in">
+                    <a
+                        class="product-tile__name"
+                        href="/igry-dlya-pc/kupit-hearts-of-iron/kupit-hearts-of-iron-3-cd-key.php"
+                        title="Hearts of Iron III (ключ для ПК)"
+                    >Hearts of Iron III (ключ для ПК)</a>
+                                            <div class="product-tile__type">Цифровой товар</div>
+                                    </div>
+            </div>
+            <div class="product-tile__cnt ">
+                <div class="product-tile__cnt-col-r">
+                                            <div class="product-tile__inbasket title-inbasket-js"></div><button
+    type="button"
+    class="button button_small button_orange add-to-basket-js product-tile__button"
+    title="Купить"
+            data-params='{"id":"24819","name":"Hearts of Iron III (\u043a\u043b\u044e\u0447 \u0434\u043b\u044f \u041f\u041a)","price":"99","basketUrl":"\/personal\/cart\/","inBasket":""}'>
+        Купить</button>
+                                                    <div class="product-tile__stock-icon ic-mark"></div>
+                            <div class="product-tile__stock">В наличии</div>
+                                                            </div>
+                <div class="product-tile__cnt-col-l">
+                                            <div class="product-tile__price-old">
+                            249 руб.                        </div>
+                                        <div class="product-tile__price-wrap">
+                        <div class="product-tile__price-in">
+                            <div class="product-tile__price">99 </div> <div class="product-tile__cur">руб.</div>                        </div>
+                    </div>
+                                            <div class="buttons-product-small product-tile__buttons">
+                            <div class="buttons-product-small__item">
+                                <div
+    class=" buttons-product-small__icon ic-wish ic-wish-js "
+    title="В список желаемого"
+    data-params='{"isAuthorize":false,"inWishList":false,"urlAdd":"\/ajax\/wishlist\/addElement.php","elementId":"24819","wishListUrl":"\/personal\/wishlist\/","auth":"\/auth\/?backurl=\/igry-dlya-pc\/","clientId":null,"email":null}'
+>
+</div>
+
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+            <div class="product-tile__bottom">
+                <div class="product-tile__bottom-in">
+                                            <div class="product-tile__delivery">
+                            <div class="product-tile__delivery-item">
+                                                                    <div class="product-tile__icon product-tile__icon_email ic-email"></div>
+                                    <div class="product-tile__delivery-text">
+                                        Моментальня доставка на e-mail                                    </div>
+                                                            </div>
+                        </div>
+                                                                <div class="product-tile__activations">
+                            <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="types-icon types-icon__key "
+            title="Цифровой товар">
+        </div>
+    </div>
+            <div class=" product-tile__act-text">Цифровой товар</div>
+    </div>
+                                <div class=" product-tile__act-item">
+        <div class=" product-tile__act-icon">
+            <div
+                class="activations activations_steam "
+                title="Steam">
+            </div>
+        </div>
+        <div class=" product-tile__act-text">
+            Steam        </div>
+    </div>
+                                                                                        <div class=" product-tile__act-item">
+    <div class=" product-tile__act-icon">
+        <div
+            class="age "
+            title="Возрастной рейтинг: 12+"
+        >
+            12+        </div>
+    </div>
+    <div class=" product-tile__act-text">
+        Возрастной рейтинг: 12+    </div>
+</div>                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
 </div>
 
     <div class="pagination catalog-list__pagination">
@@ -3856,17 +3859,17 @@ else
                    data-value="5">5</a>
             </div>
                         <div class="pagination__item-w">
-                    <a href="/igry-dlya-pc/?PAGEN_1=15"
+                    <a href="/igry-dlya-pc/?PAGEN_1=7"
                        class="pagination__item pagination__item_dots pagination-js"
                        data-name="PAGEN_1" target="_self"
-                       title="Перейти на страницу 15"
-                       data-value="15">...</a>
+                       title="Перейти на страницу 7"
+                       data-value="7">...</a>
                 </div>
                         <div class="pagination__item-w pagination__item-w_next">
-                <a href="/igry-dlya-pc/?PAGEN_1=24"
+                <a href="/igry-dlya-pc/?PAGEN_1=8"
                    class="pagination__item pagination__item_last pagination-js" data-name="PAGEN_1" target="_self"
-                   title="Перейти на страницу 24"
-                   data-value="24">24</a>
+                   title="Перейти на страницу 8"
+                   data-value="8">8</a>
             </div>
                 <div class="pagination__item-w pagination__item-w_next">
             <a href="/igry-dlya-pc/?PAGEN_1=2"

@@ -18,18 +18,31 @@ async def start(message: types.Message):
    
 @dsp.message_handler(Text(equals="Игры"))
 async def get_discount_games(message:types.Message):
-    await message.answer("Please wait..")
-    igromagaz.get_data()
 
-    with open ("igromagaz_discount.json",encoding="UTF-8") as file:
+    start_buttons=["Хоррор","Стратегия","Аркады"]
+    keyboards=types.ReplyKeyboardMarkup(resize_keyboard=True)
+    keyboards.add(*start_buttons)
+
+    await message.answer("Chooose genre:",reply_markup=keyboards)
+    
+
+   
+    
+
+@dsp.message_handler(Text(equals="Хоррор"))
+async def get_discount_games_horror(message:types.Message):
+
+    igromagaz.get_horror_data()
+
+    with open ("igromagaz_discount_horror.json",encoding="UTF-8") as file:
         data=json.load(file)
-
-    for item in data:
-        card=f'{hlink(item.get("Название"),item.get("Cсылка"))}\n'\
-            f"Старая цена:{item.get('Cтарая цена')}\n"\
-            f"Новая цена:{item.get('Новая цена')}\n"\
-            f"Наличие:{item.get('Наличие')}\n"
-        await message.answer(card)
+        
+        for item in data:
+            card=f'{hlink(item.get("Название"),item.get("Cсылка"))}\n'\
+                f"Старая цена:{item.get('Cтарая цена')}\n"\
+                f"Новая цена:{item.get('Новая цена')}\n"\
+                f"Наличие:{item.get('Наличие')}\n"
+            await message.answer(card)
 
 
 def main():
